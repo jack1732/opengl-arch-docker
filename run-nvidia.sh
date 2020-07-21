@@ -10,4 +10,4 @@ docker run \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
   -v /home/conf-docker/archlinux/mirrorlist:/etc/pacman.d/mirrorlist:ro \
   -v /home/conf-docker/archlinux/pacman.conf:/etc/pacman.conf \
-  -it opengl-arch glxinfo|grep vendor && glxgears
+  -it yokaiyoukari/opengl-arch glxinfo|grep vendor && glxgears
