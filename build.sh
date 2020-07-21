@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t yokaiyoukariyoukaiyoukari/opengl-arch .
+docker build -t yokaiyoukari/opengl-arch .
